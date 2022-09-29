@@ -29,6 +29,9 @@ import { Component, OnInit } from '@angular/core';
             <li>
               <a routerLink="/contact">Preciso de ajuda</a>
             </li>
+            <li>
+              <a routerLink="/contact">Sobre nós</a>
+            </li>
           </ul>
         </div>
       </div>

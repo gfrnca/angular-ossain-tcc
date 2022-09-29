@@ -33,9 +33,12 @@
     transition: 0.2s all;
 }
 
+.header-menu ul li {
+    margin-right: 60px;
+}
+
 .header-menu ul li:last-child {
     margin: 0px;
-    margin-left: 60px;
 }
 
 .header-menu ul li:hover {

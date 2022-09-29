@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
             <!-- Home Page Content -->
             <div class="content container">
                 <div class="content-wrapper">
-                    <div class="main-object">
+                    <div class="main-object" id="main">
                         <div class="main-image">
                             <img 
                               src="assets/img/object3.png"
