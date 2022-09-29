@@ -1,0 +1,14 @@
+/* Footer */
+
+.footer {
+    width: 100%;
+    height: 150px;
+    background: purple;
+    margin-top: 60px;
+}
+
+.footer-wrapper {
+    width: 100%;
+    height: 100%;
+    background: green;
+}
