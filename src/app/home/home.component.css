@@ -1,141 +1,174 @@
 /* Home Page */
 
 #home-section {
-    height: auto;
-    width: 100%;
+  height: auto;
+  width: 100%;
 }
 
 /* ====== Home Page Content ===== */
 
 #content-section {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .content {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .content-wrapper {
-    width: 100%;
-    height: 100%;
-
+  width: 100%;
+  height: 100%;
 }
 
 .main-object {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-flow: row wrap;
-    margin-bottom: 100px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 100px;
 }
 
 .main-image {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    align-items: center;
-    padding: 40px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
 }
 
 .main-text {
-    width: auto;
-    height: 100%;
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 40px;
-    flex-direction: column;
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+  flex-direction: column;
 }
 
 .main-text h1 {
-    font-size: 40px;
-    color: #0a0a0a;
-    line-height: 40px;
-    margin-bottom: 40px;
+  font-size: 40px;
+  color: #0a0a0a;
+  line-height: 40px;
+  margin-bottom: 40px;
 }
 
 .main-text p {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .main-text button {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    border: none;
-    background: #36af9b;
-    border-radius: 5px;
-    color: white;
-    padding: 10px;
-    cursor: pointer;
-    transition: 0.2s all;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: none;
+  background: #36af9b;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.2s all;
 }
 
 .main-text button:hover {
-    background: #278273;
+  background: #278273;
 }
 
 .main-labels {
-    width: 100%;
-    display: flex;
-    margin-top: 70px;
+  width: 100%;
+  display: flex;
+  margin-top: 70px;
 }
 
 .main-labels img {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .main-labels img + img {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 .content-object {
-    width: 100%;
-    height: auto;
-    display: flex;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .content-object + .content-object {
-    margin-top: 80px;
+  margin-top: 40px;
 }
 
 .object-image {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 40px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  flex: 1;
 }
 
 .object-text {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 40px;
-    flex-direction: column;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+  flex-direction: column;
+  flex: 1;
+  min-width: 375px;
 }
 
 .object-text h1 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
-@media only screen and (max-width: 1100px) {
-    .main-image img {
-        width: 250px;
-    }
-    
-    .main-text {
-        padding: 0px;
-    }
+.mobile-content-breaker {
+  display: none;
+  width: 60%;
+  height: 1px;
+  background: rgb(154, 154, 154);
+  border-radius: 4px;
+  margin: 0 auto;
+}
 
-    .main-labels {
-        justify-content: center;
-    }
-}  
+@media only screen and (max-width: 900px) {
+  .main-image img {
+    width: 250px;
+  }
+
+  .main-text {
+    padding: 0px;
+  }
+
+  .main-labels {
+    justify-content: center;
+  }
+
+  .up {
+    order: 1;
+  }
+
+  .down {
+    order: 2;
+  }
+
+  .mobile-content-breaker {
+    display: block;
+  }
+
+  .object-image {
+    padding: 40px 0;
+  }
+
+  .object-text {
+    padding: 40px 0;
+    min-width: auto;
+  }
+}

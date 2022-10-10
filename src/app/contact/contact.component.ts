@@ -72,6 +72,7 @@ import { Component, OnInit } from '@angular/core';
                   O que precisamos saber? <span>*</span>
                 </label>
                 <textarea 
+                  rows="2" cols="2"
                   name="mensagem" 
                   class="text-area" 
                   [(ngModel)]="mensagem"
