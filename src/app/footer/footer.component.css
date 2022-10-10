@@ -40,7 +40,6 @@
 .footer-brand {
     display: flex;
     flex-direction: column;
-    height: 100%;
     width: auto;
 }
 
@@ -116,6 +115,10 @@
     }
 
     /* Accordion */
+    .accordion {
+        margin-bottom: 30px;
+    }
+
     .accordion-title {
         width: 100%;
         background-color: rgb(245, 245, 245);

@@ -46,38 +46,28 @@ import { Component, OnInit } from "@angular/core";
 
       <div class="footer-mobile-width">
         <div class="footer-wrapper container">
+
+          <!-- Accordion -->
           <div class="footer-accordion">
-            <button class="accordion-title">Acesso Rápido</button>
-            <div class="accordion-content">
-              <ul>
-                <li>Página Inicial</li>
-                <li>Entrar em Contato</li>
-                <li>Sobre nós</li>
-              </ul>
+            <!-- Acesso Rápido -->
+            <div class="accordion">
+              <button class="accordion-title">Acesso Rápido</button>
+              <div class="accordion-content">
+                <ul>
+                  <li>Página Inicial</li>
+                  <li>Entrar em Contato</li>
+                  <li>Sobre nós</li>
+                </ul>
+              </div>
             </div>
-
-            <button class="accordion-title">
-              Acesso Rápido
-            </button>
-            <div class="accordion-content">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-            </div>
-
-            <button class="accordion-title">
-              Acesso Rápido
-            </button>
-            <div class="accordion-content">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
+            <!-- Institucional -->
+            <div class="accordion">
+              <button class="accordion-title">
+                Institucional
+              </button>
+              <div class="accordion-content">
+                <li>Documentação</li>
+              </div>
             </div>
           </div>
         </div>
