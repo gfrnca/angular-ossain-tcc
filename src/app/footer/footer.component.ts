@@ -46,7 +46,6 @@ import { Component, OnInit } from "@angular/core";
 
       <div class="footer-mobile-width">
         <div class="footer-wrapper container">
-
           <!-- Accordion -->
           <div class="footer-accordion">
             <!-- Acesso Rápido -->
@@ -67,6 +66,20 @@ import { Component, OnInit } from "@angular/core";
               </button>
               <div class="accordion-content">
                 <li>Documentação</li>
+              </div>
+            </div>
+          </div>
+          <div class="footer-brand">
+            <img
+              src="assets/img/ossain-footer-logo.png"
+              width="150"
+              alt="logo"
+            />
+            <!-- Mídias sociais -->
+            <div class="footer-socials">
+              <!-- Instagram -->
+              <div class="social-media" id="instagram">
+                <i class="fa-brands fa-instagram"></i>
               </div>
             </div>
           </div>
@@ -94,7 +107,6 @@ export class FooterComponent implements OnInit {
           accordionTitle.classList.remove("active");
         } else {
           const accordionTitleActivated = document.querySelectorAll(".active");
-          const statusActivated = document.querySelectorAll(".fa-minus");
 
           accordionTitleActivated.forEach((accordionTitleActivated) => {
             accordionTitleActivated.classList.remove("active");

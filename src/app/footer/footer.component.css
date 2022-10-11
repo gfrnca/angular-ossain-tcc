@@ -114,6 +114,19 @@
         width: 100%;
     }
 
+    .footer-wrapper {
+        flex-direction: column;
+    }
+
+    .footer-brand {
+        display: flex;
+        align-items: center;
+    }
+
+    .footer-brand img {
+        margin-bottom: 20px;
+    }
+
     /* Accordion */
     .accordion {
         margin-bottom: 30px;
