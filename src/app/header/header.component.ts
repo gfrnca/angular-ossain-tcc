@@ -27,10 +27,10 @@ import { Component, OnInit } from '@angular/core';
               <a routerLink="/">Início</a>  
             </li>
             <li>
-              <a routerLink="/contact">Preciso de ajuda</a>
+              <a routerLink="/contact">Entrar em contato</a>
             </li>
             <li>
-              <a routerLink="/contact">Sobre nós</a>
+              <a routerLink="/about">Sobre nós</a>
             </li>
           </ul>
         </div>

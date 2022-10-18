@@ -1,0 +1,155 @@
+/* About Page */
+#about {
+    height: auto;
+}
+
+.about-title {
+    font-size: 30px;
+    color: #0a0a0a;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.about-title span {
+    text-decoration: underline;
+    text-decoration-color: #36af9b;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 8px;
+}
+
+.about-content {
+    
+}
+
+.main-container {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.phrase {
+    display: inline-block;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 0.8em;
+}
+
+.phrase span {
+    text-decoration: underline;
+    text-decoration-color: #36af9b;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 8px;
+}
+
+.main-text {
+    margin-left: 60px;
+}
+
+.about-subtitle {
+    font-size: 30px;
+    color: #0a0a0a;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.about-subtitle span {
+    text-decoration: underline;
+    text-decoration-color: #36af9b;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 8px;
+}
+
+.developers-container {
+    height: 600px;
+}
+
+.splide {
+    height: 450px;
+}
+
+.splide__track {
+    height: 100%;
+}
+
+.splide__slide {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.card-top {
+    flex: 0.3;
+    background: #36af9b;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+}
+
+.card-bottom {
+    flex: 1;
+}
+
+.bottom-content {
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dev-name {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.dev-role {
+    font-size: 15px;
+    font-weight: 500;
+    color: #333333
+}
+
+.image {
+    height: 120px;
+    width: 120px;
+    background: #52a393;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 40px;
+    padding: 3px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.media-icons {
+    display: flex;
+    flex-direction: column;
+}
+
+.media-icons div {
+    margin-bottom: 10px;
+    color: white;
+    opacity: 0.6;
+    transition: 0.2s all;
+    cursor: pointer;
+}
+
+.media-icons div:last-child {
+    margin-bottom: 0px;
+}
+
+.media-icons div:hover {
+    opacity: 1;
+}

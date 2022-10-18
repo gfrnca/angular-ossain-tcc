@@ -121,3 +121,13 @@ form {
     cursor:not-allowed;
 }
 
+@media only screen and (max-width: 900px) {
+    .contact-form {
+        padding: 0;
+    }
+
+    .contact-wrapper {
+        width: 100%;
+    }
+
+}

@@ -1,3 +1,4 @@
+import { AboutComponent } from './../about/about.component';
 import { Component, OnInit } from "@angular/core";
 
 @Component({
@@ -29,7 +30,7 @@ import { Component, OnInit } from "@angular/core";
               <p>Acesso Rápido</p>
               <li routerLink="/">Página Inicial</li>
               <li routerLink="/contact/">Entrar em contato</li>
-              <li>Sobre nós</li>
+              <li routerLink="/about">Sobre nós</li>
             </ul>
           </div>
 
@@ -53,9 +54,16 @@ import { Component, OnInit } from "@angular/core";
               <button class="accordion-title">Acesso Rápido</button>
               <div class="accordion-content">
                 <ul>
-                  <li>Página Inicial</li>
-                  <li>Entrar em Contato</li>
-                  <li>Sobre nós</li>
+                  <li>
+                    <a routerLink="/">Página inicial</a>
+                  </li>
+                  <li>
+                    <a routerLink="/contact">Entrar em contato</a>
+                  </li>
+                  <li>
+                    <a routerLink="/about">Sobre nós</a>
+                  </li>
+
                 </ul>
               </div>
             </div>
@@ -65,14 +73,17 @@ import { Component, OnInit } from "@angular/core";
                 Institucional
               </button>
               <div class="accordion-content">
-                <li>Documentação</li>
+                <ul>
+                  <li>Documentação</li>
+                  <li>Termos de Serviço</li>
+                </ul>
               </div>
             </div>
           </div>
           <div class="footer-brand">
             <img
               src="assets/img/ossain-footer-logo.png"
-              width="150"
+              width="100"
               alt="logo"
             />
             <!-- Mídias sociais -->
