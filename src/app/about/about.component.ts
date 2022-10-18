@@ -17,16 +17,8 @@ import Splide from "@splidejs/splide";
                 NA<br />TU<br />RE<br /><span>ZA</span><br />
               </p>
               <p class="main-text">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
+              Nosso grupo, fundado em 2022 para o desenvolvimento de um Trabalho de Conclusão de Curso (TCC), juntou todo o conhecimento que adquirimos durante os três longos e dificeis anos de ensino técnico, para aplicar da melhor forma nesse projeto.
+Hoje, trazemos a vocês a Ossain, um sistema mobile e web que permite que a nossa natureza seja ouvida e respeitada, abaixo vocês poderão conhecer um pouco mais dos desenvolvedores e integrantes presentes nesse grande projeto, através do nosso github e linkedIn :) 
               </p>
             </div>
 
