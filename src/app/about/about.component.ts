@@ -1,8 +1,8 @@
-import { Component, OnInit } from '@angular/core';
-import Splide from '@splidejs/splide';
+import { Component, OnInit } from "@angular/core";
+import Splide from "@splidejs/splide";
 
 @Component({
-  selector: 'app-about',
+  selector: "app-about",
   template: `
     <!-- About Page -->
     <section id="about">
@@ -13,8 +13,21 @@ import Splide from '@splidejs/splide';
           <!-- About Page Content -->
           <div class="about-content">
             <div class="main-container">
-              <p class="phrase">NA<br>TU<br>RE<br><span>ZA</span><br></p>
-              <p class="main-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+              <p class="phrase">
+                NA<br />TU<br />RE<br /><span>ZA</span><br />
+              </p>
+              <p class="main-text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was
+                popularised in the 1960s with the release of Letraset sheets
+                containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of
+                Lorem Ipsum.
+              </p>
             </div>
 
             <div class="developers-container">
@@ -23,20 +36,27 @@ import Splide from '@splidejs/splide';
               <section class="splide" aria-label="Splide Basic HTML Example">
                 <div class="splide__track">
                   <ul class="splide__list">
-
-                  <!-- Gabriel França -->
+                    <!-- Gabriel França -->
                     <li class="splide__slide">
                       <div class="card-top">
                         <div class="media-icons">
-                          <div class="fab fa-github">
-
-                          </div>
-                          <div class="fab fa-linkedin">
-
-                          </div>
+                          <a
+                            href="https://github.com/gfrnca"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <div class="fab fa-github"></div>
+                          </a>
+                          <a
+                            href="https://www.linkedin.com/in/gabriel-fran%C3%A7a-616830219/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <div class="fab fa-linkedin"></div>
+                          </a>
                         </div>
                         <div class="image">
-                          <img src='../../assets/img/franca.jpg'/>
+                          <img src="../../assets/img/franca.jpg" />
                         </div>
                       </div>
                       <div class="card-bottom">
@@ -51,15 +71,23 @@ import Splide from '@splidejs/splide';
                     <li class="splide__slide">
                       <div class="card-top">
                         <div class="media-icons">
-                          <div class="fab fa-github">
-
-                          </div>
-                          <div class="fab fa-linkedin">
-
-                          </div>
+                        <a
+                            href="https://www.freecodecamp.org/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <div class="fab fa-github"></div>
+                          </a>
+                          <a
+                            href="https://www.freecodecamp.org/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <div class="fab fa-linkedin"></div>
+                          </a>
                         </div>
                         <div class="image">
-                          <img src='../../assets/img/francisco.jpg'/>
+                          <img src="../../assets/img/francisco.jpg" />
                         </div>
                       </div>
                       <div class="card-bottom">
@@ -70,20 +98,27 @@ import Splide from '@splidejs/splide';
                       </div>
                     </li>
 
-
                     <!-- Vinicius Henques -->
                     <li class="splide__slide">
                       <div class="card-top">
                         <div class="media-icons">
-                          <div class="fab fa-github">
-
-                          </div>
-                          <div class="fab fa-linkedin">
-
-                          </div>
+                        <a
+                            href="https://github.com/henquesz"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <div class="fab fa-github"></div>
+                          </a>
+                          <a
+                            href="https://www.linkedin.com/in/vinicius-henques-5a843a1b9/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <div class="fab fa-linkedin"></div>
+                          </a>
                         </div>
                         <div class="image">
-                          <img src='../../assets/img/vinicius.jpg'/>
+                          <img src="../../assets/img/vinicius.jpg" />
                         </div>
                       </div>
                       <div class="card-bottom">
@@ -98,15 +133,23 @@ import Splide from '@splidejs/splide';
                     <li class="splide__slide">
                       <div class="card-top">
                         <div class="media-icons">
-                          <div class="fab fa-github">
-
-                          </div>
-                          <div class="fab fa-linkedin">
-
-                          </div>
+                        <a
+                            href="https://www.freecodecamp.org/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <div class="fab fa-github"></div>
+                          </a>
+                          <a
+                            href="https://www.freecodecamp.org/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <div class="fab fa-linkedin"></div>
+                          </a>
                         </div>
                         <div class="image">
-                          <img src='../../assets/img/marcos.jpg'/>
+                          <img src="../../assets/img/marcos.jpg" />
                         </div>
                       </div>
                       <div class="card-bottom">
@@ -121,15 +164,23 @@ import Splide from '@splidejs/splide';
                     <li class="splide__slide">
                       <div class="card-top">
                         <div class="media-icons">
-                          <div class="fab fa-github">
-
-                          </div>
-                          <div class="fab fa-linkedin">
-
-                          </div>
+                        <a
+                            href="https://www.freecodecamp.org/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <div class="fab fa-github"></div>
+                          </a>
+                          <a
+                            href="https://www.linkedin.com/in/vict%C3%B3ria-caroline-737095204/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <div class="fab fa-linkedin"></div>
+                          </a>
                         </div>
                         <div class="image">
-                          <img src='../../assets/img/victoria.jpg'/>
+                          <img src="../../assets/img/victoria.jpg" />
                         </div>
                       </div>
                       <div class="card-bottom">
@@ -142,21 +193,31 @@ import Splide from '@splidejs/splide';
                     <li class="splide__slide">
                       <div class="card-top">
                         <div class="media-icons">
-                          <div class="fab fa-github">
-
-                          </div>
-                          <div class="fab fa-linkedin">
-
-                          </div>
+                        <a
+                            href="https://www.freecodecamp.org/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <div class="fab fa-github"></div>
+                          </a>
+                          <a
+                            href="https://www.freecodecamp.org/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <div class="fab fa-linkedin"></div>
+                          </a>
                         </div>
                         <div class="image">
-                          <img src='../../assets/img/franca.jpg'/>
+                          <img src="../../assets/img/franca.jpg" />
                         </div>
                       </div>
                       <div class="card-bottom">
                         <div class="bottom-content">
                           <p class="dev-name">Bruno Reis</p>
-                          <p class="dev-role">Desenvolvedor de Banco de Dados</p>
+                          <p class="dev-role">
+                            Desenvolvedor de Banco de Dados
+                          </p>
                         </div>
                       </div>
                     </li>
@@ -164,36 +225,32 @@ import Splide from '@splidejs/splide';
                 </div>
               </section>
             </div>
-
-            
           </div>
         </div>
       </div>
     </section>
   `,
-  styleUrls: ['./about.component.css']
+  styleUrls: ["./about.component.css"],
 })
 export class AboutComponent implements OnInit {
-
-  constructor() { }
+  constructor() {}
 
   ngOnInit(): void {
-    var splide = new Splide( '.splide', {
+    var splide = new Splide(".splide", {
       perPage: 3,
       focus: 0,
-      fixedHeight: '20rem',
-      gap: '1rem',
+      fixedHeight: "20rem",
+      gap: "1rem",
       breakpoints: {
         1275: {
-        perPage: 2,
+          perPage: 2,
         },
         870: {
-        perPage: 1,
+          perPage: 1,
         },
-      }, 
-    } );
-    
+      },
+    });
+
     splide.mount();
   }
-
 }
