@@ -64,7 +64,7 @@ Hoje, trazemos a vocês a Ossain, um sistema mobile e web que permite que a noss
                       <div class="card-top">
                         <div class="media-icons">
                         <a
-                            href="https://www.freecodecamp.org/"
+                            href="https://github.com/gabrielLoboo"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
