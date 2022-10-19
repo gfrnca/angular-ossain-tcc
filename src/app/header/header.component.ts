@@ -17,7 +17,7 @@ import { Component, OnInit } from '@angular/core';
         </div>
 
         <div class="header-mobile-menu">
-          <i class="fa-solid fa-bars"></i>
+          <i (click)="openMenu()" class="fa-solid fa-bars"></i>
         </div>
 
         <!-- Menu -->
@@ -36,6 +36,14 @@ import { Component, OnInit } from '@angular/core';
         </div>
       </div>
     </div>
+
+    <div class="mobile-menu deactivated-menu" id="mobile-menu">
+      <div class="mobile-menu-wrapper">
+        <div class="">
+          
+        </div>
+      </div>
+    </div>
   `,
   styleUrls: ['./header.component.css']
 })
@@ -44,6 +52,15 @@ export class HeaderComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  openMenu() {
+    let menu = document.getElementById('mobile-menu') as HTMLElement;
+    
+
+    menu.classList.toggle('activated-menu');
+    
+    
   }
 
 }

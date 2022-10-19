@@ -1,4 +1,11 @@
+/* Animations */
+@keyframes open-menu {
+    from {transform: translateX(100%);;}
+    to {transform: translateX(0%);}
+  }
 /* Header */
+
+
 
 .header {
     width: 100%;
@@ -71,5 +78,26 @@
         margin-bottom: 8px;
     }
     
+    .mobile-menu {
+        position: absolute;
+        z-index: 10;
+        height: 100vh;
+        width: 100%;
+        top: 82px;
+        transform: translateX(100%);
+        display: none;
+        background: rgb(238, 238, 238);
+    }
+
+    .activated-menu {
+        display: block;
+        transform: translateX(0%);
+        animation: open-menu;
+        animation-duration: 1s;
+    }
+
+    .mobile-menu-wrapper {
+
+    }
 }  
   
