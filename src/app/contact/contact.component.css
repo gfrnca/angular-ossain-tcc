@@ -124,9 +124,14 @@ form {
 @media only screen and (max-width: 900px) {
     .contact-form {
         padding: 0;
+        margin-top: 40px;
     }
 
     .contact-wrapper {
+        width: 100%;
+    }
+
+    .contact-wrapper p {
         width: 100%;
     }
 
