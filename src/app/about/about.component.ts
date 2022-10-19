@@ -151,6 +151,7 @@ Hoje, trazemos a vocês a Ossain, um sistema mobile e web que permite que a noss
                         </div>
                       </div>
                     </li>
+                  
 
                     <!-- Victória Caroline -->
                     <li class="splide__slide">
@@ -233,6 +234,9 @@ export class AboutComponent implements OnInit {
       focus: 0,
       fixedHeight: "20rem",
       gap: "1rem",
+      classes: {
+        pagination: 'splide__pagination pagination'
+      },
       breakpoints: {
         1275: {
           perPage: 2,

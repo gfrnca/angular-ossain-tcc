@@ -16,6 +16,22 @@ a {
     color: unset;
 }
 
+.pagination {
+    bottom: 80px;
+}
+
+.splide__pagination__page {
+    background: #36af9b;
+}
+
+.splide__pagination__page.is-active {
+    background: #155b4f;
+}
+
+.splide__arrow {
+    top: 35%;
+}
+
 @media only screen and (max-width: 1100px) {
     .container {
         padding: 0 10%;

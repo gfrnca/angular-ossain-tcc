@@ -65,6 +65,7 @@
 
 .splide {
     height: 450px;
+    padding-bottom: 40px;
 }
 
 .splide__track {
@@ -76,6 +77,10 @@
     flex-direction: column;
     border-radius: 20px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.splide__pagination--ltr {
+    padding: 80px;
 }
 
 .card-top {
@@ -152,4 +157,19 @@
 
 .media-icons div:hover {
     opacity: 1;
+}
+
+@media only screen and (max-width: 900px) {
+    .main-container {
+        flex-direction: column;
+    }
+
+    .phrase {
+        display: none;
+        order: 2;
+    }
+
+    .main-text {
+        margin-left: 0px;
+    }
 }
