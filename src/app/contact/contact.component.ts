@@ -13,7 +13,7 @@ import { Component, OnInit } from '@angular/core';
 
 
           <!-- Contact Form -->
-          <form (ngSubmit)="submitForm()" #contactForm="ngForm">
+          <form id="form"  #contactForm="ngForm">
             <div class="contact-form">
 
               <!-- Nome -->
@@ -81,6 +81,7 @@ import { Component, OnInit } from '@angular/core';
 
               <button 
                 type="submit" 
+                id="btn"
                 class="form-button"
                 [disabled]="contactForm.invalid"
               >
@@ -104,12 +105,39 @@ export class ContactComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
+    let messages : any = [];
+
+    let btn = document.getElementById('btn') as HTMLButtonElement;
+
+    const addMessage = (e : any) => {
+      e.preventDefault();
+      
+      let form = document.getElementById('form') as HTMLFormElement;
+  
+      let message = {
+        nome: this.nome,
+        sobrenome: this.sobrenome,
+        email: this.email,
+        mensagem: this.mensagem
+      }
+  
+      messages.push(message);
+      form.reset()
+  
+      console.log(messages)
+  
+      localStorage.setItem('MessageList', JSON.stringify(messages));
+  
+    }
+    document.addEventListener('DOMContentLoaded', () => {
+      btn.addEventListener('click', addMessage)
+    })
+
+
   }
 
-  submitForm() {
-    // Grab all fields values
-    alert("Obrigado pelo seu feedback!")
-    
-  }
+
+
 
 }

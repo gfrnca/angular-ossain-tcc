@@ -59,8 +59,6 @@ export class HeaderComponent implements OnInit {
     
 
     menu.classList.toggle('activated-menu');
-    
-    
   }
 
 }
