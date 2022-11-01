@@ -42,13 +42,13 @@ import { Component, OnInit } from '@angular/core';
         <h1><span>Menu d</span>e navegação</h1>
         <ul>
           <li>
-            Página inicial
+            <a routerLink="/">Início</a>  
           </li>
           <li>
-            Entrar em contato
+            <a routerLink="/contact">Entrar em contato</a>  
           </li>
           <li>
-            Sobre nós
+            <a routerLink="/about">Sobre nós</a>  
           </li>
         </ul>
         <h1><span>Insti</span>tucional</h1>
