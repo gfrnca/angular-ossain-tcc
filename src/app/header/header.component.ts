@@ -77,14 +77,12 @@ export class HeaderComponent implements OnInit {
     Array.from(mobileLinks).map(function(x){x.addEventListener('click', () => {
       menu.classList.toggle('activated-menu');
     })})
-    
-
+  
   }
 
   openMenu() {
     let menu = document.getElementById('mobile-menu') as HTMLElement;
     
-
     menu.classList.toggle('activated-menu');
   }
 
