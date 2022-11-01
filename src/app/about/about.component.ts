@@ -231,7 +231,6 @@ export class AboutComponent implements OnInit {
   ngOnInit(): void {
     var splide = new Splide(".splide", {
       perPage: 3,
-      focus: 0,
       fixedHeight: "20rem",
       gap: "1rem",
       classes: {
