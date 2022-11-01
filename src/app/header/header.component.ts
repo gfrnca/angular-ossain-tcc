@@ -42,13 +42,13 @@ import { Component, OnInit } from '@angular/core';
         <h1><span>Menu d</span>e navegação</h1>
         <ul>
           <li>
-            <a routerLink="/">Início</a>  
+            <a routerLink="/" class="mobile-link">Início</a>  
           </li>
           <li>
-            <a routerLink="/contact">Entrar em contato</a>  
+            <a routerLink="/contact" class="mobile-link">Entrar em contato</a>  
           </li>
           <li>
-            <a routerLink="/about">Sobre nós</a>  
+            <a routerLink="/about" class="mobile-link">Sobre nós</a>  
           </li>
         </ul>
         <h1><span>Insti</span>tucional</h1>
@@ -70,6 +70,15 @@ export class HeaderComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    let menu = document.getElementById('mobile-menu') as HTMLElement;
+    
+    let mobileLinks = document.querySelectorAll('.mobile-link');
+
+    Array.from(mobileLinks).map(function(x){x.addEventListener('click', () => {
+      menu.classList.toggle('activated-menu');
+    })})
+    
+
   }
 
   openMenu() {
