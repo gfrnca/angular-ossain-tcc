@@ -48,7 +48,7 @@ Hoje, trazemos a vocês a Ossain, um sistema mobile e web que permite que a noss
                           </a>
                         </div>
                         <div class="image">
-                          <img src="../../assets/img/franca.jpg" />
+                          <img src="../../assets/img/avatar/franca.jpg" />
                         </div>
                       </div>
                       <div class="card-bottom">
@@ -79,7 +79,7 @@ Hoje, trazemos a vocês a Ossain, um sistema mobile e web que permite que a noss
                           </a>
                         </div>
                         <div class="image">
-                          <img src="../../assets/img/francisco.jpg" />
+                          <img src="../../assets/img/avatar/francisco.jpg" />
                         </div>
                       </div>
                       <div class="card-bottom">
@@ -110,7 +110,7 @@ Hoje, trazemos a vocês a Ossain, um sistema mobile e web que permite que a noss
                           </a>
                         </div>
                         <div class="image">
-                          <img src="../../assets/img/vinicius.jpg" />
+                          <img src="../../assets/img/avatar/vinicius.jpg" />
                         </div>
                       </div>
                       <div class="card-bottom">
@@ -141,7 +141,7 @@ Hoje, trazemos a vocês a Ossain, um sistema mobile e web que permite que a noss
                           </a>
                         </div>
                         <div class="image">
-                          <img src="../../assets/img/marcos.jpg" />
+                          <img src="../../assets/img/avatar/marcos.jpg" />
                         </div>
                       </div>
                       <div class="card-bottom">
@@ -173,7 +173,7 @@ Hoje, trazemos a vocês a Ossain, um sistema mobile e web que permite que a noss
                           </a>
                         </div>
                         <div class="image">
-                          <img src="../../assets/img/victoria.jpg" />
+                          <img src="../../assets/img/avatar/victoria.jpg" />
                         </div>
                       </div>
                       <div class="card-bottom">
@@ -202,7 +202,7 @@ Hoje, trazemos a vocês a Ossain, um sistema mobile e web que permite que a noss
                           </a>
                         </div>
                         <div class="image">
-                          <img src="../../assets/img/franca.jpg" />
+                          <img src="../../assets/img/avatar/bruno.jpg" />
                         </div>
                       </div>
                       <div class="card-bottom">
