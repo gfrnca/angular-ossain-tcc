@@ -56,6 +56,7 @@ import { Component, OnInit } from '@angular/core';
           <li>
             Termos de serviço
           </li>
+          <button (click)="toggleDarkTheme()">Dark Mode Experimental</button>
         </ul>
       </div>
     </div>
