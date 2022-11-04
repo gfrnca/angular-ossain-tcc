@@ -8,6 +8,36 @@
 }
 
 
+body {
+    --text-color: #222;
+    --bkg-color: #fff;
+    --btn-txt-color: white;
+    --title-color: #36af9b;
+    --btn-bg-color: #36af9b;
+    --logo:url('https://i.ibb.co/h7R8T7X/ossain.png');
+  }
+  body.dark-theme {
+    --text-color: #eee;
+    --bkg-color: #252222;
+    --btn-txt-color: rgb(46, 43, 43);
+    --btn-bg-color: rgb(20, 211, 195);
+    --logo:url('https://i.ibb.co/br4Dfjj/ossainwhite.png');
+    
+  }
+  
+  body {
+    background: var(--bkg-color);
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    color: var(--btn-txt-color);
+    background-color: var(--btn-bg-color);
+  }
+
+
 .container {
     padding: 0 20%;
 }
