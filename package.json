@@ -17,10 +17,8 @@
     "@angular/platform-browser": "^14.2.0",
     "@angular/platform-browser-dynamic": "^14.2.0",
     "@angular/router": "^14.2.0",
-    "@ionic/angular": "^6.3.4",
     "@splidejs/splide": "^4.1.3",
     "babel-preset-es2015": "^6.24.1",
-    "ionicons": "^6.0.3",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
@@ -29,7 +27,6 @@
     "@angular-devkit/build-angular": "^14.2.3",
     "@angular/cli": "~14.2.3",
     "@angular/compiler-cli": "^14.2.0",
-    "typescript": "~4.7.2",
-    "@ionic/angular-toolkit": "latest"
+    "typescript": "~4.7.2"
   }
 }

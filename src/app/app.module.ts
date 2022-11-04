@@ -9,7 +9,6 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
-import { IonicModule } from '@ionic/angular';
 
 
 @NgModule({
@@ -24,8 +23,7 @@ import { IonicModule } from '@ionic/angular';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule,
-    IonicModule.forRoot()
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

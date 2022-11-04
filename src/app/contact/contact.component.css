@@ -5,7 +5,7 @@
 
 .contact-title {
     font-size: 30px;
-    color: var(--text-color);
+    color: #0a0a0a;
     text-align: center;
     margin-bottom: 40px;
 }
@@ -26,7 +26,6 @@
 .contact-wrapper p {
     width: 80%;
     text-align: center;
-    color: var(--text-color);
 }
 
 .contact-wrapper p span {
@@ -78,11 +77,6 @@ form {
 .field-error {
     font-size: 13px;
     margin-top: 10px;
-}
-
-.field-label {
-    color: var(--text-color);
-    font-weight: 800;
 }
 
 .field-label span {
