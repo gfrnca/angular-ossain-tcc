@@ -98,7 +98,7 @@ Hoje, trazemos a vocês a Ossain, um sistema mobile e web que permite que a noss
                             href="https://github.com/henquesz"
                             target="_blank"
                             rel="noopener noreferrer"
-                          >|
+                          >
                             <div class="fab fa-github"></div>
                           </a>
                           <a
