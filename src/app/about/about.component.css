@@ -5,7 +5,7 @@
 
 .about-title {
     font-size: 30px;
-    color: var(--text-color);
+    color: #0a0a0a;
     text-align: center;
     margin-bottom: 40px;
 }
@@ -32,7 +32,6 @@
     font-weight: bold;
     text-align: center;
     line-height: 0.8em;
-    color: var(--text-color);
 }
 
 .phrase span {
@@ -44,12 +43,11 @@
 
 .main-text {
     margin-left: 60px;
-    color: var(--text-color);
 }
 
 .about-subtitle {
     font-size: 30px;
-    color: var(--text-color);
+    color: #0a0a0a;
     text-align: center;
     margin-bottom: 40px;
 }
@@ -72,7 +70,6 @@
 
 .splide__track {
     height: 100%;
-    
 }
 
 .splide__slide {
@@ -98,9 +95,6 @@
 
 .card-bottom {
     flex: 1;
-    background-color: white;
-    border-bottom-left-radius:20px;
-    border-bottom-right-radius:20px ;
 }
 
 .bottom-content {

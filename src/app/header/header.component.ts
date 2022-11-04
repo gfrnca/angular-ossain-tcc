@@ -8,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
         <!-- Logo -->
         <div class="header-brand">
             <a routerLink="/">
-              <img class="image"/>
+              <img 
+                src="assets/img/ossainlogo.png"
+                width="200"
+                alt="logo"
+              >
             </a>
         </div>
 
@@ -28,8 +32,6 @@ import { Component, OnInit } from '@angular/core';
             <li>
               <a routerLink="/about">Sobre nós</a>
             </li>
-            <button (click)="toggleDarkTheme()">Dark Mode Experimental</button>
-            <ion-icon name="contrast-outline"></ion-icon>
           </ul>
         </div>
       </div>
@@ -68,11 +70,6 @@ export class HeaderComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    let setDarkMode = localStorage.getItem('dark-mode');
-    if(setDarkMode === 'on'){
-     this.DarkMode();
-  }
-
     let menu = document.getElementById('mobile-menu') as HTMLElement;
     
     let mobileLinks = document.querySelectorAll('.mobile-link');
@@ -83,33 +80,10 @@ export class HeaderComponent implements OnInit {
   
   }
 
-  DarkMode(): void {
-    document.body.classList.toggle('dark-theme');
-  }
-  
-
-  toggleDarkTheme(): void {
-
-    let setDarkMode = localStorage.getItem('dark-mode');
-
-    if(setDarkMode !== "on"){
-      this.DarkMode();
-       localStorage.setItem('dark-mode', 'on');
-
-    }else{
-      this.DarkMode();
-      localStorage.setItem('dark-mode', "off");
-
-    }
- }
-
- 
-
   openMenu() {
     let menu = document.getElementById('mobile-menu') as HTMLElement;
     
     menu.classList.toggle('activated-menu');
   }
-
 
 }

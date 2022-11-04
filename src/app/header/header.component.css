@@ -13,10 +13,6 @@
     margin-bottom: 60px;
     padding-top: 20px;
 }
-.image {
-  content: var(--logo);
-  width: 200px;
-}
 
 .header-wrapper {
     width: 100%;
@@ -42,7 +38,6 @@
     display: inline;
     cursor: pointer;
     transition: 0.2s all;
-    color: var(--text-color);
 }
 
 .header-menu ul li {
