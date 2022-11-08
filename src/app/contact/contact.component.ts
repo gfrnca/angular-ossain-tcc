@@ -76,6 +76,7 @@ import { Component, OnInit } from '@angular/core';
                   name="mensagem" 
                   class="text-area" 
                   [(ngModel)]="mensagem"
+                  required
                 ></textarea>
               </div>
 
@@ -104,7 +105,65 @@ export class ContactComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    const sampleForm = document.getElementById('form');
+
+    sampleForm?.addEventListener('submit', async (e) => {
+        e.preventDefault();
+
+        let form = e.currentTarget as HTMLFormElement;
+
+        let url = form.action;
+
+        try {
+          let formFields = new FormData(form);
+
+          
+
+        } catch (error) {
+          console.error(`An error has occured ${error}`)
+        }
+    })
+
+    async function postFormFieldsAsJson({url, formData} : {url:any, formData:any}) {
+      let formDataObject = Object.fromEntries(formData.entries());
+
+      let formDataJsonString = JSON.stringify(formDataObject);
+
+      let fetchOptions = {
+            method: "POST",
+
+            headers: {
+              "Content-Type": "application/json",
+              Accept: "application/json",
+            },
+
+            body: formDataJsonString,
+      };
+
+      let res = await fetch(url, fetchOptions);
+
+      if(!res.ok) {
+        let error = await res.text();
+
+        throw new Error(error);
+      }
+
+      return res.json();
+    }
+  
   }
+
+
+  handleSubmit(event:any) {
+    event.preventDefault();
+
+    const data = new FormData(event.target);
+
+    const value = Object.fromEntries(data.entries())
+
+    console.log({ value })
+  }
+  
 
   submitForm() {
     // Grab all fields values

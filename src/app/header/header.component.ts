@@ -23,14 +23,8 @@ import { Component, OnInit } from '@angular/core';
         <!-- Menu -->
         <div class="header-menu">
           <ul>
-            <li>
-              <a routerLink="/">Início</a>  
-            </li>
-            <li>
-              <a routerLink="/contact">Entrar em contato</a>
-            </li>
-            <li>
-              <a routerLink="/about">Sobre nós</a>
+            <li *ngFor="let item of items">
+              <a [routerLink]="item.ref">{{ item.name }}</a>  
             </li>
           </ul>
         </div>
@@ -39,19 +33,40 @@ import { Component, OnInit } from '@angular/core';
 
     <div class="mobile-menu deactivated-menu" id="mobile-menu">
       <div class="mobile-menu-wrapper">
-        <div class="">
-          
-        </div>
+        <ul>
+          <div *ngFor="let item of items" class="menu-item">
+            <li class="container">
+              <a><i class={{item.icon}}></i>{{ item.name }}</a>
+            </li>
+          </div>
+        </ul>
       </div>
     </div>
   `,
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+  items: any[];
 
-  constructor() { }
+  constructor() { 
+    this.items = [
+      {
+       id: 0, name: 'Página principal', ref: '/', icon: 'fa-solid fa-home'
+      },
+      {
+       id: 1, name: 'Entrar em contato', ref: '/contact', icon: 'fa-solid fa-comment' 
+      },
+      {
+       id: 2, name: 'Sobre nós', ref: '/about', icon: 'fa-solid fa-circle-info'
+      }
+    ]
+
+  }
 
   ngOnInit(): void {
+    let menu = this.items[0] as HTMLElement;
+
+    console.log(menu)
   }
 
   openMenu() {
@@ -59,8 +74,7 @@ export class HeaderComponent implements OnInit {
     
 
     menu.classList.toggle('activated-menu');
-    
-    
+
   }
 
 }

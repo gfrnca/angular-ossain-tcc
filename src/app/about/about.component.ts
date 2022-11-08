@@ -1,5 +1,6 @@
 import { Component, OnInit } from "@angular/core";
-import Splide from "@splidejs/splide";
+
+import '../../scripts/splide.min.js';
 
 @Component({
   selector: "app-about",
@@ -229,24 +230,6 @@ export class AboutComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
-    var splide = new Splide(".splide", {
-      perPage: 3,
-      focus: 0,
-      fixedHeight: "20rem",
-      gap: "1rem",
-      classes: {
-        pagination: 'splide__pagination pagination'
-      },
-      breakpoints: {
-        1275: {
-          perPage: 2,
-        },
-        870: {
-          perPage: 1,
-        },
-      },
-    });
 
-    splide.mount();
   }
 }

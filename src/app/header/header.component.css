@@ -57,6 +57,10 @@
     display: none;
 }
 
+.mobile-menu {
+    display: none;
+}
+
 @media only screen and (max-width: 900px) {
     .header-menu {
         display: none;
@@ -86,7 +90,7 @@
         top: 82px;
         transform: translateX(100%);
         display: none;
-        background: rgb(238, 238, 238);
+        background:rgb(249, 249, 249);
     }
 
     .activated-menu {
@@ -96,8 +100,30 @@
         animation-duration: 1s;
     }
 
-    .mobile-menu-wrapper {
+    .mobile-menu-wrapper ul {
+        margin-top: 40px;
+    }
 
+    .mobile-menu-wrapper ul li {
+        list-style: none;
+        height: 40px;
+        display: flex;
+        align-items: center;    
+        font-size: 20px;
+        font-weight: 500;
+        color: rgb(33, 33, 33);
+        margin-top: 30px;
+    }
+
+
+    .mobile-menu-wrapper ul li i {
+        margin-right: 10px;
+        font-size:20px;
+        color:#36af9b;
+    }
+
+    .menu-item {
+        padding: 0px 50px;
     }
 }  
   
