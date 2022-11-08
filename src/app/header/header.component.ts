@@ -28,7 +28,7 @@ import { Component, OnInit } from '@angular/core';
             <li>
               <a routerLink="/about">Sobre nós</a>
             </li>
-            <button (click)="toggleDarkTheme()">Dark Mode Experimental</button>
+            <button class="dark-mode-btn" (click)="toggleDarkTheme()"><i class="fa-solid fa-moon"></i></button>
           </ul>
         </div>
       </div>
@@ -56,7 +56,7 @@ import { Component, OnInit } from '@angular/core';
           <li>
             Termos de serviço
           </li>
-          <button (click)="toggleDarkTheme()">Dark Mode Experimental</button>
+          <button (click)="toggleDarkTheme()"><i class="fa-solid fa-moon"></i></button>
         </ul>
       </div>
     </div>

@@ -37,11 +37,13 @@
     align-items: center;
 }
 
+
 .header-menu ul li {
     list-style: none;
     display: inline;
     cursor: pointer;
     transition: 0.2s all;
+    flex-flow:nowrap;
     color: var(--text-color);
 }
 
@@ -56,6 +58,13 @@
 .header-menu ul li:hover {
     color: #36af9b;
 
+}
+
+.dark-mode-btn {
+    background: transparent;
+    color: var(--title-color);
+    font-size: 28px;
+    cursor: pointer;
 }
 
 .header-mobile-menu {
