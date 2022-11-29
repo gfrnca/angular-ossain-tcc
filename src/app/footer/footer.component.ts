@@ -18,9 +18,11 @@ import { Component, OnInit } from "@angular/core";
             <div class="footer-socials">
               <p>Nossas mídias</p>
               <!-- Instagram -->
-              <div class="social-media" id="instagram">
-                <i class="fa-brands fa-instagram"></i>
-              </div>
+              <a href="https://www.instagram.com/ossain_group" target="_blank">
+                <div class="social-media" id="instagram">
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+              </a>
             </div>
           </div>
 
