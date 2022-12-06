@@ -35,15 +35,6 @@ import { Component, OnInit } from "@angular/core";
               <li routerLink="/about">Sobre nós</li>
             </ul>
           </div>
-
-          <!-- Institucional -->
-          <div class="footer-menu">
-            <ul>
-              <p>Institucional</p>
-              <li>Documentação</li>
-              <li>Termos de Serviço</li>
-            </ul>
-          </div>
         </div>
       </div>
 
@@ -66,18 +57,6 @@ import { Component, OnInit } from "@angular/core";
                     <a routerLink="/about">Sobre nós</a>
                   </li>
 
-                </ul>
-              </div>
-            </div>
-            <!-- Institucional -->
-            <div class="accordion">
-              <button class="accordion-title">
-                Institucional
-              </button>
-              <div class="accordion-content">
-                <ul>
-                  <li>Documentação</li>
-                  <li>Termos de Serviço</li>
                 </ul>
               </div>
             </div>
