@@ -28,7 +28,6 @@ import { Component, OnInit } from '@angular/core';
             <li>
               <a routerLink="/about">Sobre nós</a>
             </li>
-            <button (click)="toggleDarkTheme()">Dark Mode Experimental</button>
           </ul>
         </div>
       </div>
